@@ -1,11 +1,16 @@
 package com.rjm.operator.example;
 
+import java.util.Scanner;
+
 public class Score {
+
+	Scanner sc = new Scanner(System.in);
 
 	int kor;
 	int eng;
 	int math;
-	int total = kor + eng + math;
-	float avg = total / 3;
+	int total;
+	float avg;
+	
 
 }
